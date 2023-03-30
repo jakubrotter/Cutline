@@ -50,4 +50,9 @@ button{
 button:hover{
     background-color: rgba(0,136,169,0.5);
 }
+.navbar {
+    position: fixed;
+    position: -webkit-sticky;
+    background-color: #ffffff;
+}
 
