@@ -54,5 +54,8 @@ button:hover{
     position: fixed;
     position: -webkit-sticky;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
