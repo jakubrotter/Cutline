@@ -55,7 +55,7 @@ button:hover{
     position: -webkit-sticky;
     background-color: #ffffff;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
 }
 
