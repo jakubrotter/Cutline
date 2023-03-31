@@ -5,6 +5,7 @@
     padding: 0;
     background-color: #222222;
 }
+
 li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -21,9 +22,9 @@ p {
     padding: 5px;
 }
 
-.text {
+.Text {
     padding-top: 25px;
-    width: 100vh;
+    width: 150vh;
 }
 
 header {
@@ -42,15 +43,19 @@ header {
 .nav__links{
     list-style: none;
 }
+
 .nav__links li {
     display: inline-block;
 }
+
 .nav__links li a{
     transition: all 0.3s ease 0s;
 }
+
 .nav__links li a:hover{
     color: #22A39F;
 }
+
 button{
     background-color: rgba(0,136,169,1);
     border: none;
@@ -58,9 +63,11 @@ button{
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
+
 button:hover{
     background-color: rgba(0,136,169,0.5);
 }
+
 .navbar {
     position: fixed;
     display: flex;
@@ -70,4 +77,3 @@ button:hover{
     justify-content: center;
     border-radius: 10px;
 }
-
