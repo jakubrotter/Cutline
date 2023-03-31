@@ -5,12 +5,25 @@
     padding: 0;
     background-color: #222222;
 }
-li, a, button{
+li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
+    padding: 10px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+}
+
+.text {
+    padding-top: 25px;
+    width: 100vh;
 }
 
 header {
@@ -31,7 +44,6 @@ header {
 }
 .nav__links li {
     display: inline-block;
-    padding: 0px 20px;
 }
 .nav__links li a{
     transition: all 0.3s ease 0s;
@@ -40,7 +52,6 @@ header {
     color: #22A39F;
 }
 button{
-    padding: 9px 25px;
     background-color: rgba(0,136,169,1);
     border: none;
     border-radius: 50px;
@@ -52,10 +63,11 @@ button:hover{
 }
 .navbar {
     position: fixed;
-    position: -webkit-sticky;
-    background-color: #ffffff;
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    width: 90vh;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
 }
 
