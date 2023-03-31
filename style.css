@@ -71,7 +71,7 @@ button:hover{
 .navbar {
     position: fixed;
     display: flex;
-    width: 90vh;
+    width: 120vh;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
