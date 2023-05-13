@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
     list-style: none;
     text-decoration: none;
+    
 }
 header{
     position: fixed;
@@ -18,7 +19,9 @@ header{
     padding: 33px 9%;
     background: transparent;
 }
-
+body{
+    background: linear-gradient(245.59deg, #212222 0%, #272626 28.53%, #212222 75.52%);
+}
 .logo{
     width: 100px;
     height: 100px;
@@ -50,7 +53,7 @@ header{
     height: 100%;
     width:100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #212222 0%, #272626 28.53%, #212222 75.52%);
+    
     position: relative;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -126,11 +129,9 @@ section{
 }
 .scroll-down i{
     display: flex;
-    padding: 12px;
     font-size: 25px;
-    width: 53px;
+    width: 50px;
     color: white;
-    border: 1px solid white;
     background: transparent;
     border-radius: 30px;
     transition: all .50s ease;
@@ -138,6 +139,65 @@ section{
 .scroll-down i:hover{
     transform: translateY(-5px);
 }
+
+.container{
+    padding: 30px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+.box{
+    padding: 20px;
+    padding-left: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(31, 31, 31);
+    background: transparent;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+.box i{
+    font-size: 50px;
+    color: white;
+}
+.box img{
+    height: 70px;
+    background-color: rgba(39, 39, 39, 1);
+}
+.box h3{
+    color: white;
+    padding: 10px 0;
+    font-size: 20px;
+    background-color:rgba(0, 0, 0, 0);
+}
+.box p{
+    color: rgb(219, 219, 219);
+    font-size: 14px;
+    line-height: 1.6;
+    background-color:rgba(0, 0, 0, 0);
+}
+.cardbtn{
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 50px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .50s ease;
+}
+.cardbtn:hover{
+    transform: translateX(8px);
+    letter-spacing: 1.1px;
+    transform: scale(1.05);
+    
+}
+
+
+
 @media(max-width:1535px){
     header{
         padding: 15px 3%;
@@ -212,4 +272,3 @@ section{
         right: 0;
     }
 }
-
